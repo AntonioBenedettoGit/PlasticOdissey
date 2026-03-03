@@ -1,6 +1,12 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring, MotionValue } from 'framer-motion';
 import { Factory, ShoppingCart, Waves, Skull } from 'lucide-react';
+import hero from './assets/hero.jpg';
+import genesi from './assets/genesi.jpg';
+import consumo from './assets/consumo.jpg';
+import abbandono from './assets/abbandono.jpg';
+import erosione from './assets/erosione.jpg';
+import footer from './assets/footer.jpg';
 
 // --- TIPI ---
 interface SectionProps {
@@ -151,25 +157,25 @@ export default function App() {
       title: "La Genesi",
       description: "Ogni secondo vengono prodotte 16.000 bottiglie di plastica. Un processo industriale implacabile che trasforma il petrolio in un oggetto destinato a durare millenni, ma usato per pochi minuti.",
       icon: <Factory className="w-8 h-8" />,
-      image: "/genesi.jpg"
+      image: genesi
     },
     {
       title: "Consumo Rapido",
       description: "La vita media di una bottiglia nelle mani di un consumatore è di circa 15 minuti. Una comodità effimera che nasconde un costo ambientale incalcolabile.",
       icon: <ShoppingCart className="w-8 h-8" />,
-      image: "/consumo.jpg"
+      image: consumo
     },
     {
       title: "L'Abbandono",
       description: "Solo il 9% della plastica viene riciclato. Il resto finisce in discarica o, peggio, nei nostri oceani, dove inizia il suo vero, infinito viaggio.",
       icon: <Waves className="w-8 h-8" />,
-      image: "/abbandono.jpg"
+      image: abbandono
     },
     {
       title: "Erosione Infinita",
       description: "In mare, la plastica non scompare mai del tutto. Si frammenta in microplastiche, entrando nella catena alimentare e diventando parte del nostro stesso corpo.",
       icon: <Skull className="w-8 h-8" />,
-      image: "/erosione.jpg"
+      image: erosione
     }
   ];
 
@@ -200,7 +206,7 @@ export default function App() {
           <motion.div 
             className="w-full h-[120%] bg-cover bg-center opacity-90"
             style={{ 
-              backgroundImage: `url(/hero.jpg)`,
+              backgroundImage: `url(${hero})`,
               y: useTransform(smoothProgress, [0, 0.2], [0, -100])
             }}
           />
@@ -237,7 +243,7 @@ export default function App() {
           <motion.div 
             className="w-full h-[120%] bg-cover bg-center opacity-90"
             style={{ 
-              backgroundImage: `url(/footer.jpg)`,
+              backgroundImage: `url(${footer})`,
               y: useTransform(smoothProgress, [0.8, 1], [0, -150])
             }}
           />
