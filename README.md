@@ -65,6 +65,9 @@ Il progetto utilizza un'estetica "Dark Mode" per sottolineare la gravità dell'a
 
 **Plastic Odyssey** is an immersive scrollytelling experience that visualizes the environmental impact of plastic pollution. Through a high-fidelity interactive journey, it traces the lifecycle of a single plastic bottle—from its industrial creation to its final transformation into persistent microplastics in the ocean.
 
+![](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react&logoSize=auto)
+![](https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&logoSize=auto)
+
 ## ✨ Features
 
 - **Dynamic Scrollytelling**: Smooth, scroll-linked animations that tell a continuous story.
