@@ -2,8 +2,8 @@
 
 **Plastic Odyssey** è un'esperienza immersiva di scrollytelling che visualizza l'impatto ambientale dell'inquinamento da plastica. Attraverso un viaggio interattivo ad alta fedeltà, ripercorre il ciclo di vita di una singola bottiglia di plastica: dalla sua creazione industriale alla sua trasformazione finale in microplastiche persistenti nell'oceano.
 
-![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react&logoSize=auto)![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&logoSize=auto)
 
 ## ✨ Caratteristiche
 
