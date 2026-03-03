@@ -33,7 +33,7 @@
 
 1. Clona il repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AntonioBenedettoGit/PlasticOdissey
    ```
 2. Installa le dipendenze:
    ```bash
@@ -93,7 +93,7 @@ Il progetto utilizza un'estetica "Dark Mode" per sottolineare la gravità dell'a
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AntonioBenedettoGit/PlasticOdissey
    ```
 2. Install dependencies:
    ```bash
